@@ -1,0 +1,19 @@
+body{
+	background-color: #ffbb99; 
+}
+h3{
+	color: darkblue;
+	text-align: left;
+}
+h4{
+	color:darkblue;
+	text-align:center;
+
+}
+img{
+	display: block;
+	margin:auto;
+}
+div{
+	position: center;
+}
