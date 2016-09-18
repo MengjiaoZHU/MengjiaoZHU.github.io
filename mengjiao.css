@@ -1,5 +1,7 @@
+
 body{
 	background-color: #ffbb99; 
+	padding: 50px;
 }
 h3{
 	color: darkblue;
@@ -14,6 +16,46 @@ img{
 	display: block;
 	margin:auto;
 }
-div{
-	position: center;
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2,250px);
+	grid-template-rows:repeat(3,200px);
+
 }
+.title{
+	grid-column:1;
+	grid-row:1;
+}
+.netId{
+	grid-column:2;
+	grid-row:3;
+}
+.photo{
+	grid-column:2;
+	grid-row:2;
+}
+.p1{
+	grid-column:1;
+	grid-row:3;
+}
+.p2{
+	grid-column:2;
+	grid-row:1;
+}
+.p3{
+	grid-column:1;
+	grid-row:2;
+}
+.p4{
+	grid-column:3;
+	grid-row:3;
+}
+.p5{
+	grid-column:2;
+	grid-row:1;
+}
+.selfIntro{
+	grid-column:3;
+	grid-row:2;
+}
+
