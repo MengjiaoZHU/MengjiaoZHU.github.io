@@ -17,6 +17,6 @@ img{
 }
 grid{
 	display: grid;
-	grid-template-columns: 150px 20px 150px 20px 150px;
-	grid-template-rows: auto 20px auto 20px auto 20px;
+	grid-template-columns: 200px 20px 200px 20px 200px;
+	grid-template-rows: 150px 20px 150px 20px 150px;
 }
