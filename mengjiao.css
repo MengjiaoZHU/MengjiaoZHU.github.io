@@ -1,3 +1,4 @@
+/*add codes about grid*/
 body{
 	background-color: #ffbb99; 
 	padding: 50px;
@@ -15,8 +16,69 @@ img{
 	display: block;
 	margin:auto;
 }
-grid{
+
+.grid{
+	text-align: center;
+}
+.row{
+	width:600px;
+}
+/*.grid{
 	display: grid;
-	grid-template-columns: 200px 20px 200px 20px 200px;
-	grid-template-rows: 150px 20px 150px 20px 150px;
+	grid-template-columns: repeat(2,250px);
+	grid-template-rows:repeat(3,200px);
+
+}*/
+.title{
+	grid-column:1;
+	grid-row:1;
+}
+.netId{
+    float: left;
+    height: 200px;
+    width: 200px;
+    line-height: 180px;
+    overflow: hidden;
+}
+.photo{
+	margin-left: 25px;
+	float: left;
+}
+.p1{
+
+	float: left;
+
+}
+.p2{
+
+	float: left;
+
+}
+.p3{
+
+	float: right;
+
+}
+.p4{
+
+	float: left;
+
+}
+.p5{
+
+	float: left;
+
+}
+.p6{
+
+	float: left;
+
+}
+.selfIntro{
+    float: left;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+
+
 }
